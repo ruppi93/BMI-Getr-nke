@@ -1,0 +1,9 @@
+# ninja log v5
+0	63	7158829901038055	CMakeFiles/02_verzweigungen.dir/main.c.obj	d397dff28ef200c7
+64	140	7158829901782838	02_verzweigungen.exe	90d2fcc7ada574e8
+1	56	7158830933808142	CMakeFiles/02_verzweigungen.dir/main.c.obj	d397dff28ef200c7
+56	123	7158830934443266	02_verzweigungen.exe	90d2fcc7ada574e8
+2	59	7158831010835380	CMakeFiles/02_verzweigungen.dir/main.c.obj	d397dff28ef200c7
+59	129	7158831011500527	02_verzweigungen.exe	90d2fcc7ada574e8
+1	56	7158831109104725	CMakeFiles/02_verzweigungen.dir/main.c.obj	d397dff28ef200c7
+56	125	7158831109753535	02_verzweigungen.exe	90d2fcc7ada574e8
