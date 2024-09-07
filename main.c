@@ -24,9 +24,52 @@ int main() {
 }
 
 void bmi() {
-   // Hier muss der Code für die BMI-Aufgabe geschrieben werden.
+    // Hier muss der Code für die BMI-Aufgabe geschrieben werden.
+    float koerpergroesse, gewicht, bmi ;
+
+    printf("Gebe deine koerpergroesse ein\n");
+    scanf("%f", &koerpergroesse);
+
+    printf("Gebe dein gewicht ein\n");
+    scanf("%f", &gewicht);
+
+    bmi = gewicht / (koerpergroesse*koerpergroesse) ;
+
+    printf("Dein BMI betraegt %f" , bmi);
+
+    if  ( bmi >= 15 && bmi < 20) {
+        printf("\n sie sind untergewichtig\n");
+    }else if ( bmi >= 20 && bmi < 25 ){
+    printf("\n sie sind normalgewichtig\n");
+}
+    return 0;
 }
 
 void automat() {
     // Hier muss der Code für die Getränke-Automat-Aufgabe geschrieben werden.
-}
+    int auswahl ;
+    float preis, eingezahlt ;
+
+    printf("\nGeben sie ihr gewuenschtes Getraenk ein\n (1)Fuer Wasser = 0.50CHF\n (2)Fuer Limonade = 1.0CHF\n (3)Fuer Bier =1.50CHF\n Geben sie 1,2 oder 3 ein\n");
+    scanf("%d",&auswahl ) ;
+
+    if (auswahl == 1) {
+        preis = 0.5;
+        printf("geben sie 0,50 fuer Wasser ein\n");
+    } else if (auswahl == 2) {
+        preis = 1.0;
+        printf("geben sie 1,0 fuer Limonade ein\n" );
+    }else if (auswahl == 3) {
+        preis = 1.5;
+        printf("geben sie 1,5 fuer Bier ein\n" );
+    }
+    scanf("%f", & eingezahlt) ;
+    if (eingezahlt == 0.5 ) {
+        printf("Sie erhalten Wasser\n") ;
+    } else if (auswahl == 1.0) {
+        printf("Sie erhalten Limonade\n") ;
+    } else if (auswahl == 1.5) {
+        printf("Sie erhalten Bier\n") ;
+    }
+    return 0;
+    }
